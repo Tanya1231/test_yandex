@@ -1,0 +1,18 @@
+.header__button_left {
+  background: #1f1f1f;
+  color: #ffffff;
+  margin-right: 20px;
+}
+
+.header__button_left:hover {
+  background: rgba(251, 206, 81, 1);
+  color: rgba(31, 31, 31, 1);
+  border: 2px solid rgba(251, 206, 81, 1);
+}
+
+@media (max-width: 800px) {
+  .header__button_left {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}

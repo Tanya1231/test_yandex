@@ -1,0 +1,19 @@
+.header__oplata {
+  font-family: "Golos Text";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .header__oplata {
+    text-align: left;
+    margin: 30px 0;
+  }
+}
+
+@media screen and (max-width:500px) {
+  p.header__oplata br, p.header__oplata br { display: none; }
+}

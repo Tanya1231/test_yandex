@@ -1,0 +1,17 @@
+.header__button_right {
+  border: 2px solid #1f1f1f;
+  color: #1f1f1f;
+}
+
+.header__button_right:hover {
+  background: rgba(31, 31, 31, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+@media (max-width: 500px) {
+  .header__button_right {
+    opacity: 90%;
+    background-color: rgba(255, 255, 255, 1);
+    border-color: transparent;
+  }
+}

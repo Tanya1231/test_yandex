@@ -1,0 +1,22 @@
+.header__content {
+  width: 542px;
+  letter-spacing: 0px;
+  margin: 95px 0 0 15%;
+}
+
+@media (max-width: 1500px) {
+  .header__content {
+    margin-left: 72px;
+    margin-top: 45px;
+  }
+}
+
+@media (max-width: 500px) {
+  .header__content {
+    text-align: center;
+    width: 335px;
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

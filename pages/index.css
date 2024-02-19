@@ -1,0 +1,33 @@
+@import url(../vendor/normalize.css);
+
+@import url(../vendor/fonts.css);
+
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/header/header.css);
+
+@import url(../blocks/header/__logo/header__logo.css);
+
+@import url(../blocks/header/__button/header__button.css);
+
+@import url(../blocks/header/__content/header__content.css);
+
+@import url(../blocks/header/__content/_text/header__content_text.css);
+
+@import url(../blocks/header/__content/_center/header__content_center.css);
+
+@import url(../blocks/header/__button/header__button.css);
+
+@import url(../blocks/header/__button/_container/header__button_container.css);
+
+@import url(../blocks/header/__oplata/header__oplata.css);
+
+@import url(../blocks/header/__button/_left/header__button_left.css);
+
+@import url(../blocks/header/__button/_right/header__button_right.css);
+
+@import url(../blocks/line/line.css);
+
+@import url(../blocks/line/__content/line__content.css);
+
+@import url(../blocks/line/__content/_text/line__content_text.css);

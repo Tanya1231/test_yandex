@@ -1,0 +1,26 @@
+.line__content {
+  display: flex;
+  animation: run 15s linear infinite;
+  font-family: "Merriweather";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: right;
+}
+
+@media (max-width: 1000px) {
+  .line__content {
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
+
+@keyframes run {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-100% - 6rem));
+  }
+}

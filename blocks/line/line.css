@@ -1,0 +1,18 @@
+.line {
+  display: flex;
+  white-space: nowrap;
+  color: #fff;
+  background-color: #f54932;
+  width: 2, 335px;
+  height: 60px;
+  padding: 18px, 12px, 18px, 12px;
+  overflow: hidden;
+}
+
+@media (max-width: 1000px) {
+  .line {
+    width: 1, 727px;
+    height: 38px;
+    padding: 10px, 12px, 10px, 12px;
+  }
+}

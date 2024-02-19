@@ -1,0 +1,16 @@
+.header__content_text {
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 66px;
+  margin: 0;
+  text-align: left;
+  font-family: "Merriweather";
+}
+
+@media (max-width: 800px) {
+  .header__content_text {
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 1.2361623048782349px;
+  }
+}

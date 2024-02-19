@@ -1,0 +1,7 @@
+.header__content_center {
+  text-align: center;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: left;
+  margin-left: 20px;
+}

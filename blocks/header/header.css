@@ -1,0 +1,24 @@
+.header {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  background: url("../../images/fon.png") no-repeat;
+  background-size: cover;
+  min-height: 700px;
+}
+
+@media (max-width: 1700px) {
+  .header {
+    background-size: auto;
+    background-position: center;
+  }
+}
+
+@media (max-width: 560px) {
+  .header {
+    background: url("../../images/fon_small.png") no-repeat;
+    background-color: rgba(233, 222, 212, 1);
+    background-size: cover;
+    min-height: 773px;
+  }
+}

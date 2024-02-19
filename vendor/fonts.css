@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 400;
+  src: url(./fonts/Merriweather-Regular.woff) format("woff2"),
+    url(./fonts/Merriweather-Regular.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Golos Text";
+  font-style: normal;
+  font-weight: 500;
+  src: url(./fonts/GolosText-Medium.woff) format("woff2"),
+    url(./fonts/GolosText-Medium.woff2) format("woff");
+}
+
+@font-face {
+  font-family: "Golos Text";
+  font-style: normal;
+  font-weight: 400;
+  src: url(./fonts/GolosText-Regular.woff) format("woff2"),
+    url(./fonts/Merriweather-Regular.woff2) format("woff");
+}

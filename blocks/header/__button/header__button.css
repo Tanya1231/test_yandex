@@ -1,0 +1,32 @@
+.header__button {
+  background-color: rgba(0, 0, 0, 0);
+  width: 263px;
+  height: 72px;
+  padding: 20px;
+  border-radius: 66px;
+  border: 2px solid #1f1f1f;
+  font-family: "Golos Text";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0px;
+  padding: 10px;
+  text-align: center;
+  color: #1f1f1f;
+  cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  .header__button {
+    width: 335px;
+    height: 47px;
+    padding: 18px, 20px, 18px, 20px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  button.header__button br,
+  button.header__button br {
+    display: none;
+  }
+}
